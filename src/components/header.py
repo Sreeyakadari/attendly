@@ -6,10 +6,9 @@ def header_home():
     logo_url="https://img.icons8.com/fluency/96/school.png"
 
     st.markdown(f"""
-        <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-bottom:30px; margin-top:30px;">
-            <img src='{logo_url}' style='height:100px;' >
+        <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px;">
+            <img src='{logo_url}' style='height:100px;'/>
             <h1 style='text-align:center; color:#E0E3FF'> Attendly </h1>
-            </img>
         </div>
 
     """, unsafe_allow_html=True)
