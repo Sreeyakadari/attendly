@@ -7,9 +7,10 @@ from src.components.dialog_auto_enroll import auto_enroll_dialog
 
 def main():
     st.set_page_config(
-        page_title='SnapClass - Making Attendance faster using AI',
-        page_icon= "https://i.ibb.co/YTYGn5qV/logo.png"
+        page_title='Attendly - Making Attendance faster using AI',
+        # page_icon= "https://i.ibb.co/YTYGn5qV/logo.png"
         # page_icon="https://img.icons8.com/fluency/96/artificial-intelligence.png"
+        page_icon="https://img.icons8.com/fluency/96/school.png"
         # page_icon="https://img.icons8.com/fluency/96/school.png"
     )
     if 'login_type' not in st.session_state:

@@ -1,4 +1,5 @@
 import streamlit as st
+
 def subject_card(name, code, section, stats=None, footer_callback=None):
     html = f"""
         <div style="background:white; border-left: 8px solid #EB459E; padding:25px; border-radius: 20px; border: 1px solid black; margin-bottom:20px;">

@@ -1,9 +1,9 @@
 import streamlit as st
 
 def header_home():
-    logo_url= "https://i.ibb.co/YTYGn5qV/logo.png"
+    # logo_url= "https://i.ibb.co/YTYGn5qV/logo.png"
     # logo_url="https://img.icons8.com/fluency/96/artificial-intelligence.png"
-    #logo_url="https://img.icons8.com/fluency/96/school.png"
+    logo_url="https://img.icons8.com/fluency/96/school.png"
 
     st.markdown(f"""
         <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-bottom:30px; margin-top:30px;">
@@ -15,9 +15,9 @@ def header_home():
 
 
 def header_dashboard():
-    logo_url= "https://i.ibb.co/YTYGn5qV/logo.png"
+    # logo_url= "https://i.ibb.co/YTYGn5qV/logo.png"
     # logo_url="https://img.icons8.com/fluency/96/artificial-intelligence.png"
-    #logo_url="https://img.icons8.com/fluency/96/school.png"
+    logo_url="https://img.icons8.com/fluency/96/school.png"
 
     st.markdown(f"""
         <div style="display:flex;  align-items:center; justify-content:center; gap:10px;">
