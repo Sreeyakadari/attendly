@@ -7,8 +7,9 @@ def header_home():
 
     st.markdown(f"""
         <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-bottom:30px; margin-top:30px;">
-            <img src='{logo_url}' style='height:100px;' />
+            <img src='{logo_url}' style='height:100px;' >
             <h1 style='text-align:center; color:#E0E3FF'> Attendly </h1>
+            </img>
         </div>
 
     """, unsafe_allow_html=True)
